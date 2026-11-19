@@ -13,6 +13,14 @@ and quizzes, plan your week and get advice for each subject. Everything is saved
 </p>
 
 ## Screenshots
+| Summary Studio | A mind map summary | One-page cheat sheet |
+| --- | --- | --- |
+| ![Summary Studio: format, length and focus options beside a live preview with a verification report](screenshots/8-summary-studio.png) | ![A mind map summary drawn from a lecture, with zoom and export](screenshots/9-mind-map.png) | ![A dense one-page cheat sheet summary](screenshots/10-cheat-sheet.png) |
+
+| Active recall | Past paper practice |
+| --- | --- |
+| ![Active recall: key terms blurred until you reveal them](screenshots/11-active-recall.png) | ![Practising a past exam question with marking against the lectures](screenshots/12-past-paper.png) |
+
 | The new editor and a page's flashcards | Planner week view | Export a subject as one PDF |
 | --- | --- | --- |
 | ![Floating formatting menu and the page flashcard panel](screenshots/5-editor-and-cards.png) | ![Planner week view](screenshots/6-planner.png) | ![Export sheet](screenshots/7-export.png) |
@@ -22,6 +30,17 @@ and quizzes, plan your week and get advice for each subject. Everything is saved
 | ![Home dashboard](screenshots/1-dashboard.png) | ![Subject home](screenshots/2-subject.png) | ![Flashcard review](screenshots/4-flashcards.png) |
 
 ## Features
+- **Summary Studio.** Summarise any lecture, reading or recording in 17 formats (bullets, Cornell notes, tables, Q&A, glossary, mind map, timeline, flowchart, one-page cheat sheet, TL;DR, slide by slide, formula sheet and more), at any length and level, focused on what you choose, in your language. Save presets, and set a default for each subject.
+- **Summaries you can check.** Lectern pulls out the facts first, writes from them, then checks every statement against the slides it cites. Anything it can't confirm is marked "⚠ check" with the source on hover, and a report shows slides covered and statements verified. In our benchmark with a small local model, recall rose from 80% to 98% and faithfulness from 90% to 99% versus 1.5 (see the release notes).
+- **Reads your files properly.** Headings, tables, two-column PDFs, speaker notes, formulas, scanned pages (on-device OCR), captions (.srt/.vtt), EPUB books and web articles. Headers, footers, "Questions?" slides and duplicates are cleaned out first.
+- **Summarise everything at once.** A Processing Queue works through a whole subject in the background, and can wait until your Mac is plugged in and idle.
+- **Practise, don't just reread.** Active recall with blurred key terms, timed blurting, Feynman mode (explain it to a curious AI student), and a Daily Review on Home.
+- **Past papers.** Import past exams, practise or sit a timed mock with marking against your lectures, see likely exam topics, and get a readiness score with a one-click revision plan.
+- **Listen.** Pages read aloud with a natural voice, or exported as an audio file with chapters for the bus.
+- **Search by meaning** with a local embedding model, **smart folders**, and a **graph** of how your pages link.
+- **Quick capture** from any app with ⌃⌥Space (notes, links, screenshots with their text read for you), or Services → Send to Lectern.
+- **References** in APA 7, Harvard, MLA, Chicago or IEEE from a DOI or ISBN, with in-text citations and BibTeX.
+- **Reading mode** with comfortable spacing, a reading ruler and a dyslexia-friendly font, a templates gallery, and daily backups you can restore from.
 - **Slides → notes, any length.** Paste a link to a PDF, PowerPoint, Word file, web page or Google Slides, sign in to iLearn once in Lectern's built-in browser, or just drop the file in. Lectern reads every slide in sections and writes structured notes: an overview, learning objectives, topic notes with clickable **slide citations**, diagrams explained, key terms, a summary, likely exam questions and things to ask your lecturer. A coverage report shows every slide was covered, and lists any that weren't. It runs in the background and can resume if it's interrupted.
 - **Claude or free local models.** Use your own Claude key, or Ollama on your Mac. The Model advisor recommends the best installed model for your Mac, and you can choose a different model for each task.
 - **Slides beside your notes.** Click a slide to see which notes came from it, or click a citation to jump to the slide.
@@ -55,7 +74,7 @@ Lectern checks for updates once a day and tells you when a new version is ready.
 ## Privacy
 Your notes, flashcards and quizzes stay in your University folder; the search index and page history stay on your Mac.
 **With Claude, only the content used for an AI action is sent to Anthropic, and only when you click it** (for example, a lecture's slides when you click Generate Notes), using your own API key, which is kept in your Keychain. With Ollama on your Mac, nothing leaves your Mac.
-Recordings are transcribed on-device. There are no analytics or tracking. Lectern also contacts the sites of links you paste, and GitHub to check for updates.
+Recordings are transcribed on-device, and OCR, read-aloud and semantic search all run on your Mac. There are no analytics or tracking. Lectern also contacts the sites of links you paste, Crossref and Open Library when you look up a DOI or ISBN (only that number is sent), and GitHub to check for updates.
 
 **Academic integrity:** Lectern is for learning. It explains, quizzes and gives feedback, but won't write your assessments.
 
