@@ -13,6 +13,14 @@ and quizzes, plan your week and get advice for each subject. Everything is saved
 </p>
 
 ## Screenshots
+| One-click summary types and “Same headings as the PDF” | Review the detected headings | Flashcard review, grouped by slide |
+| --- | --- | --- |
+| ![Summary Studio with the row of quick summary types and a summary that follows the source's own headings](screenshots/13-same-headings.png) | ![The heading outline preview: skip, rename or merge headings](screenshots/14-outline-preview.png) | ![Generated flashcards grouped by slide, with accept and reject](screenshots/15-card-review.png) |
+
+| Review on your phone | A Study Pack |
+| --- | --- |
+| ![The phone review page on an iPhone](screenshots/16-phone-review.png) | ![A Study Pack: summary, flashcards, quiz and cheat sheet](screenshots/17-study-pack.png) |
+
 | Summary Studio | A mind map summary | One-page cheat sheet |
 | --- | --- | --- |
 | ![Summary Studio: format, length and focus options beside a live preview with a verification report](screenshots/8-summary-studio.png) | ![A mind map summary drawn from a lecture, with zoom and export](screenshots/9-mind-map.png) | ![A dense one-page cheat sheet summary](screenshots/10-cheat-sheet.png) |
@@ -30,6 +38,11 @@ and quizzes, plan your week and get advice for each subject. Everything is saved
 | ![Home dashboard](screenshots/1-dashboard.png) | ![Subject home](screenshots/2-subject.png) | ![Flashcard review](screenshots/4-flashcards.png) |
 
 ## Features
+- **One-click summary types:** Brief, Standard, Detailed, Dot points, **Same headings as the PDF**, Slide by slide, Key points, Exam revision, Explain simply and Cheat sheet, or combine any format, length and organisation. Lengths are accurate, and summaries adapt to the subject (science, programming, humanities, law, health).
+- **Flashcards that cover everything:** cards made from the checked facts on every slide, at the density you choose, in many card types, with quality checks, no duplicates, a coverage report, and every card linked to its slide. Review them by slide with keyboard shortcuts.
+- **Study Packs:** a summary, flashcards, a practice quiz and a cheat sheet in one click.
+- **Auto-file new lectures** from your Downloads folder into the right subject and week.
+- **Review on your phone** over your home Wi-Fi (no app to install), and **Anki** import and export (.apkg).
 - **Summary Studio.** Summarise any lecture, reading or recording in 17 formats (bullets, Cornell notes, tables, Q&A, glossary, mind map, timeline, flowchart, one-page cheat sheet, TL;DR, slide by slide, formula sheet and more), at any length and level, focused on what you choose, in your language. Save presets, and set a default for each subject.
 - **Summaries you can check.** Lectern pulls out the facts first, writes from them, then checks every statement against the slides it cites. Anything it can't confirm is marked "⚠ check" with the source on hover, and a report shows slides covered and statements verified. In our benchmark with a small local model, recall rose from 80% to 98% and faithfulness from 90% to 99% versus 1.5 (see the release notes).
 - **Reads your files properly.** Headings, tables, two-column PDFs, speaker notes, formulas, scanned pages (on-device OCR), captions (.srt/.vtt), EPUB books and web articles. Headers, footers, "Questions?" slides and duplicates are cleaned out first.
@@ -74,7 +87,7 @@ Lectern checks for updates once a day and tells you when a new version is ready.
 ## Privacy
 Your notes, flashcards and quizzes stay in your University folder; the search index and page history stay on your Mac.
 **With Claude, only the content used for an AI action is sent to Anthropic, and only when you click it** (for example, a lecture's slides when you click Generate Notes), using your own API key, which is kept in your Keychain. With Ollama on your Mac, nothing leaves your Mac.
-Recordings are transcribed on-device, and OCR, read-aloud and semantic search all run on your Mac. There are no analytics or tracking. Lectern also contacts the sites of links you paste, Crossref and Open Library when you look up a DOI or ISBN (only that number is sent), and GitHub to check for updates.
+Recordings are transcribed on-device, and OCR, read-aloud and semantic search all run on your Mac. Review on Phone only works on your home network, only while you turn it on, with a one-time key. There are no analytics or tracking. Lectern also contacts the sites of links you paste, Crossref and Open Library when you look up a DOI or ISBN (only that number is sent), and GitHub to check for updates.
 
 **Academic integrity:** Lectern is for learning. It explains, quizzes and gives feedback, but won't write your assessments.
 
