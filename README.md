@@ -12,6 +12,8 @@ and quizzes, plan your week and get advice for each subject. Everything is saved
   </a>
 </p>
 
+**New in 1.8:** a full quality pass. Your notes are safer (no lost edits when renaming, moving or deleting, and changes from other devices are combined, never overwritten), Lectern is faster with big lectures and thousands of pages, Settings has **Update Now**, every screen fits a small window, and there's a built-in **Feature Guide** and **Troubleshoot** window. 📘 **[Read the Lectern User Guide (PDF)](docs/Lectern-User-Guide.pdf)**
+
 ## Screenshots
 | One-click summary types and “Same headings as the PDF” | Review the detected headings | Flashcard review, grouped by slide |
 | --- | --- | --- |
@@ -81,18 +83,25 @@ and quizzes, plan your week and get advice for each subject. Everything is saved
 4. The welcome screens help you choose your University folder, add a subject and (optionally) your Claude API key.
 
 ## Updates
-Lectern checks for updates once a day and tells you when a new version is ready. You can also choose
-**Lectern → Check for Updates…**, or turn on automatic installs in **Settings → Updates**.
+Lectern checks for updates once a day and tells you when a new version is ready. Choose
+**Lectern → Check for Updates…** (or open **Settings → Updates**) and click **Update Now**: Lectern downloads the update,
+checks its signature, installs it and reopens. You can also turn on automatic installs there.
+
+## Help
+- **Help → Feature Guide**: everything Lectern does, with Show Me buttons ([also as a PDF](docs/Lectern-User-Guide.pdf)).
+- **Help → Troubleshoot…**: one-click fixes (rebuild search, clear AI caches, check Ollama, reset the queue, reconnect your folder, restore a backup). If something keeps going wrong, **hold Option while opening Lectern** to start in Safe Mode.
 
 ## Privacy
 Your notes, flashcards and quizzes stay in your University folder; the search index and page history stay on your Mac.
 **With Claude, only the content used for an AI action is sent to Anthropic, and only when you click it** (for example, a lecture's slides when you click Generate Notes), using your own API key, which is kept in your Keychain. With Ollama on your Mac, nothing leaves your Mac.
-Recordings are transcribed on-device, and OCR, read-aloud and semantic search all run on your Mac. Review on Phone only works on your home network, only while you turn it on, with a one-time key. There are no analytics or tracking. Lectern also contacts the sites of links you paste, Crossref and Open Library when you look up a DOI or ISBN (only that number is sent), and GitHub to check for updates.
+Recordings are transcribed on-device, and OCR, read-aloud and semantic search all run on your Mac. Review on Phone only works on your home network, only while you turn it on, with a one-time key. There are no analytics or tracking (an optional, off-by-default count of which features you use stays on your Mac, in Diagnostics). Lectern also contacts the sites of links you paste, Crossref and Open Library when you look up a DOI or ISBN (only that number is sent), and GitHub to check for updates.
 
 **Academic integrity:** Lectern is for learning. It explains, quizzes and gives feedback, but won't write your assessments.
 
 ## Report a problem
-Choose **Help → Report a Problem…** in Lectern, or [open an issue](https://github.com/MilkshakeSR/Lectern/issues/new).
+Choose **Help → Report a Problem…** in Lectern. It saves a diagnostics file to your Desktop (versions, settings and the
+recent log, never your notes) for you to read first, and opens a new GitHub issue with your Lectern and macOS versions filled in.
+Attach the file only if you're happy to. Or [open an issue](https://github.com/MilkshakeSR/Lectern/issues/new) directly.
 
 ## Version history
 See [all releases](https://github.com/MilkshakeSR/Lectern/releases).
