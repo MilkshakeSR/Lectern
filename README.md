@@ -12,9 +12,13 @@ and quizzes, plan your week and get advice for each subject. Everything is saved
   </a>
 </p>
 
-**New in 1.8:** a full quality pass. Your notes are safer (no lost edits when renaming, moving or deleting, and changes from other devices are combined, never overwritten), Lectern is faster with big lectures and thousands of pages, Settings has **Update Now**, every screen fits a small window, and there's a built-in **Feature Guide** and **Troubleshoot** window. 📘 **[Read the Lectern User Guide (PDF)](docs/Lectern-User-Guide.pdf)**
+**New in 1.10:** a clean page with the formatting toolbar one click away, a study timer at the top of every page (with breaks, a daily goal and focus sounds), an outline, find and replace, Australian English spelling that knows your key terms, snippets, and two pages side by side.
 
 ## Screenshots
+| A clean page: the toolbar stays hidden until you want it | The timer running in the page header, with the toolbar shown | The timer: presets, breaks and today's focus |
+| --- | --- | --- |
+| ![A lecture page with no formatting toolbar, and one row of buttons at the top](screenshots/18-clean-page.png) | ![The page header showing 24:13 left in a focus session, with the formatting toolbar slid down over the page](screenshots/19-timer-and-toolbar.png) | ![The timer popover: a large countdown ring, Pause, Reset and Skip, preset times, breaks and today's focus time against the daily goal](screenshots/20-timer-popover.png) |
+
 | One-click summary types and “Same headings as the PDF” | Review the detected headings | Flashcard review, grouped by slide |
 | --- | --- | --- |
 | ![Summary Studio with the row of quick summary types and a summary that follows the source's own headings](screenshots/13-same-headings.png) | ![The heading outline preview: skip, rename or merge headings](screenshots/14-outline-preview.png) | ![Generated flashcards grouped by slide, with accept and reject](screenshots/15-card-review.png) |
@@ -59,13 +63,13 @@ and quizzes, plan your week and get advice for each subject. Everything is saved
 - **Slides → notes, any length.** Paste a link to a PDF, PowerPoint, Word file, web page or Google Slides, sign in to iLearn once in Lectern's built-in browser, or just drop the file in. Lectern reads every slide in sections and writes structured notes: an overview, learning objectives, topic notes with clickable **slide citations**, diagrams explained, key terms, a summary, likely exam questions and things to ask your lecturer. A coverage report shows every slide was covered, and lists any that weren't. It runs in the background and can resume if it's interrupted.
 - **Claude or free local models.** Use your own Claude key, or Ollama on your Mac. The Model advisor recommends the best installed model for your Mac, and you can choose a different model for each task.
 - **Slides beside your notes.** Click a slide to see which notes came from it, or click a citation to jump to the slide.
-- **An editor like Notion and Google Docs.** Select text for a formatting menu (type, size, colour, highlight, alignment, links, AI). An optional toolbar, drag handles on every block, and a “/” menu with tables, toggles, callouts, columns, code, maths (KaTeX), dates and a table of contents. Pages stay Markdown, so they open in any editor.
+- **An editor like Notion and Google Docs.** Select text for a formatting menu (type, size, colour, highlight, alignment, links, AI). A full formatting toolbar one click away (hidden for a clean page), an outline, find and replace, Australian English spelling that knows your key terms, snippets, key-term autocomplete, word goals, two pages side by side, drag handles on every block, and a “/” menu with tables, toggles, callouts, columns, code, maths (KaTeX), dates and a table of contents. Pages stay Markdown, so they open in any editor.
 - **Your files and your order.** A paperclip on every page lists everything added to it, and you can drag pages, lectures and quizzes into any order. New ones go to the bottom of the folder.
 - **Flashcards that stick.** Rich-text basic, reversible, cloze and image-occlusion cards scheduled with **FSRS**, the modern spaced-repetition algorithm. Every page has its own cards beside your notes, and each subject shows them all by folder, with strength, due counts and “Study selected”. Daily reviews, cram and weak-card modes, stats, CSV and Anki export.
 - **Quizzes and practice exams** from any page, folder or subject, with written answers marked against your notes.
 - **Study Coach** for every subject: what to focus on this week, weak topics, how to prepare for the next assessment, techniques that work, and “Plan my week”. **Ask about this subject** answers from your own notes and slides, with sources.
 - **A planner built for semesters.** Week numbers (Macquarie's dates built in), your class timetable with .ics import, tasks with natural-language quick add, assessment milestones, **Plan My Week**, an “I'm behind” catch-up, exam revision plans, Day, Week, Month, Semester and Agenda views, reminders, and optional Apple Calendar and Reminders sync.
-- **Timer and grades:** a Pomodoro timer in the menu bar that logs study time, and a grade calculator with HD/D/Cr/P/F bands.
+- **Timer and grades:** one study timer on every page, in the menu bar and in the Planner: focus sessions and breaks (25/5, 50/10, 90/20 or your own), a stopwatch, gentle chimes and notifications, focus sounds, a daily goal and streak, and your focus time logged to each subject. Plus a grade calculator with HD/D/Cr/P/F bands.
 - **Find anything:** instant search across pages, slide text, recording transcripts and flashcards, plus a command palette (⇧⌘P).
 - **Yours, as files:** subjects are folders and pages are Markdown, in a University folder you choose. Put it in iCloud Drive or OneDrive for automatic backup. Version history keeps 50 versions of every page, and deleted items go to the Trash.
 - Lecture recordings can be **transcribed on your Mac** and used with the slides (for personal study only, per your university's rules).
